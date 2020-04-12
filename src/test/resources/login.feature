@@ -1,6 +1,7 @@
 Feature: Login User
 
   Scenario: Login user
-    Then Click "Sign in" button
+    Then Click Join button
+    Then Click login link
     Then Input login
     Then Input password

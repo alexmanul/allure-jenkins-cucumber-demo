@@ -11,6 +11,11 @@ public class BasicPageDef {
         basicPage.clickButton(arg0);
     }
 
+    @Then("Click Join button")
+    public void clickJoinButton() {
+        basicPage.clickJoinButton();
+    }
+
     @Then("Click {string} button span")
     public void clickButtonSpan(String arg0) {
         basicPage.clickButtonSpan(arg0);

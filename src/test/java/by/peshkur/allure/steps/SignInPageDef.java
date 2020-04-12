@@ -18,4 +18,9 @@ public class SignInPageDef {
     public void inputPassword() {
         signInPage.inputPassword(UserConfig.USER_PASSWORD);
     }
+
+    @Then("Click login link")
+    public void loginlink() {
+        signInPage.login();
+    }
 }
